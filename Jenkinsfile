@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/Godwin4321/ci-cd-assignment.git'
+                git branch: 'main', url: 'https://github.com/Shibasankar-Rout/jenkins_clone_cicd.git'
             }
         }
 
